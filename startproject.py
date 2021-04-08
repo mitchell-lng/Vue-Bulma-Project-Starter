@@ -125,6 +125,7 @@ $input-shadow: none;
 @import '../../node_modules/bulma/sass/components/navbar.sass';
 @import '../../node_modules/bulma/sass/layout/hero.sass';
 @import '../../node_modules/bulma/sass/layout/section.sass';
+@import '../../node_modules/bulma/sass/helpers/_all.sass';
 """)
 
 # Move into the components folder to update the home page
