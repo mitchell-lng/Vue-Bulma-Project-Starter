@@ -21,7 +21,7 @@ os.chdir(_PROJECT_DIRECTORY)
 
 os.system(f'vue create { sys.argv[1] }')
 os.chdir(f'{ sys.argv[1] }/')
-os.system('yarn add node-sass sass-loader@10.1.1 vue-router')
+os.system('yarn add node-sass@5.0 sass-loader@10.1.1 vue-router')
 os.system('yarn add bulma')
 
 # Go into the main directory to add main styling to project and update the main app
@@ -130,6 +130,8 @@ $input-shadow: none;
 @import '../../node_modules/bulma/sass/elements/box.sass';
 @import '../../node_modules/bulma/sass/elements/image.sass';
 @import '../../node_modules/bulma/sass/elements/content.sass';
+@import '../../node_modules/bulma/sass/helpers/typography.sass';
+@import '../../node_modules/bulma/sass/helpers/color.sass';
 """)
 
 # Move into the components folder to update the home page
